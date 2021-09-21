@@ -13,7 +13,6 @@
   
   article {
   padding: 15px;
-  
    flex: 1 0 400px ;
    margin: 10px;
    height: 200px;
@@ -52,7 +51,12 @@
     font-size: 50px;
     text-align: center;
   }
-  
+
+  aside{
+   text-align: right;
+   font-size: 50px; 
+  }
+
   header p{
     text-align: center;
     margin: 15px;
@@ -79,4 +83,5 @@
   @media screen and (max-width: 768px) {
     article{ 
         flex: 1 1 300px;
+    }
   }
