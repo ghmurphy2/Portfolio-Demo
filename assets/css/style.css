@@ -12,16 +12,15 @@
   }
 
   article {
-  padding: 15px;
-   flex: 1 0 400px ;
+  padding: 30px;
+   flex: 1 0 800px ;
    margin: 10px;
-   height: 200px;
+   height: 400px;
    background-color: var(--background-color);
    color: var(--text-color);
    border-radius: 15px;
    border: solid 2px black;
    overflow: hidden;
-  
   }
   
   #content {
@@ -40,7 +39,7 @@
   
   article:hover{
     box-shadow: 3px 3px 5px #888888;
-    transform: scale(120%);
+    transform: scale(105%);
     top: -3px;
     left: -3px;
   }
@@ -82,14 +81,16 @@
     height: 70px;
   }
   
-  article:active {
+  .biography {
     animation-duration: 3s;
-    animation-name: transform
+    animation-name: transform;
+    text-align:center;
+    
   }
- 
+
   @media screen and (max-width: 996px) {
     article{
-      flex: 1 1 400px;
+      flex: 1 1 500px;
     }
 }
   
